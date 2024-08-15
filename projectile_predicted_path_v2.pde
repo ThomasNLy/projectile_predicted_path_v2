@@ -3,7 +3,7 @@ float gravity = 9.8f;
 float angle; // in degrees;
 float velocity = 90f;
 float path[] = new float[10];
-float path2[] = new float[10];
+float path2[] = new float[10]; //keeps track of the y coordinate of the flight path at 10 evenly spaced x coordinates
 void setup()
 {
   size(1000, 800);
